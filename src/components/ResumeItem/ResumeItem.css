@@ -1,0 +1,85 @@
+.item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  border-bottom: 2px solid #e6e6e6;
+  border-radius: 4px;
+  width: 85%;
+  background-color: #ffffff;
+  touch-action: none;
+}
+
+.item__left,
+.item__right {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  margin: 0;
+  font-weight: 500;
+  padding-bottom: 4px;
+}
+
+.text-section {
+  width: auto;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.description {
+  margin: 0;
+  padding-bottom: 4px;
+  color: #333333;
+  font-size: 14px;
+}
+
+.drag-icon,
+.info-icon {
+  margin-right: 2rem;
+}
+
+.drag-icon {
+  cursor: pointer;
+}
+
+.info-icon {
+  cursor: pointer;
+}
+
+.edit-icon {
+  cursor: pointer;
+  margin-right: 3rem;
+  width: 24px;
+  height: 24px;
+}
+
+.input {
+  width: 100px;
+  height: 28px;
+}
+
+.edit-save-btn {
+  margin-right: 3rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.inactive {
+  color: #afafaf;
+  cursor: not-allowed;
+  margin-right: 2rem;
+}
+
+.item-disable {
+  background-color: #eaeaea;
+  pointer-events: none;
+  color: #b5b5b5;
+  margin-right: 2rem;
+}

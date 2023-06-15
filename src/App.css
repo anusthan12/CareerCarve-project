@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap");
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.save-next-btn {
+  height: 52px;
+  width: 300px;
+  border: none;
+  background-color: #8a4893;
+  border-radius: 10px;
+  color: #ffffff;
+  margin: 2rem 0;
+}
+
+.save-next-btn:hover {
+  cursor: pointer;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.15),
+      rgba(255, 255, 255, 0.15)
+    ),
+    linear-gradient(92.04deg, #561d5e -18.01%, #8a4893 144.6%);
+}
